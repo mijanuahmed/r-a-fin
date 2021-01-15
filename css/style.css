@@ -1,0 +1,76 @@
+body{
+    font-family: 'Bebas Neue', cursive;
+}
+
+.carousel-image{
+    position: absolute;
+    left: 700px;
+   
+}
+.carousel-text-position{
+    
+    position: relative;
+    left: 50px
+    ;
+}
+.carousel-inner h1{
+    font-size: 40px;
+    font-weight: 700;
+}
+a{
+    font-size: 20px;
+    font-weight: 700;
+}
+p, h6, footer{
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+h3{
+    color: #fabe4c;
+}
+.row img{
+    height: 100%;
+}
+.shopping-image-position {
+    height: 300px;
+    width: 560px;
+    position:absolute;
+    left: 600px;
+    bottom:200px;
+}
+
+@media(max-width:992px){
+    
+    .shopping-image-position{
+        display:none;
+    }
+    .carousel-image {
+        display: none;
+        }
+    .carousel-image-2 {
+        align-items: center;
+        margin-left: 38px;
+        width: 550px;
+        height: 550px;
+        align-items: center;
+        padding: 10px;
+    }    
+}
+@media(min-width:992px){
+    .shopimg{
+        display:none;
+    }
+   .carousel-image-2{
+       display: none;
+   } 
+}
+.shopimg {
+    margin: auto;
+    width: 300px;
+    height: 250px;
+    align-items: center;
+    padding: 10px;
+  }
+
+
